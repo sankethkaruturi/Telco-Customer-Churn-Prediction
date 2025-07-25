@@ -6,7 +6,7 @@
 
 __Telephone__ company, also known as __telco__, is a telecommunications provider that provides services such as __telephony__ and __data communications access__. They are responsible for providing phone services to people in different parts of __The United States of America__. What makes things interesting is that there are a lot of customers who use communication services from Telco. There are customers who also opt for other services such as __television__ and __movie streaming__. The telco is at present not able to accurately predict whether a given customer who subscribes to the service is willing to churn (leave the service) or not. If they could know with good accuracy, they would be able to come up with plans and services for those users who are willing to leave the service respectively. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Images/Telco%20Customer%20Churn%20Background%20Image.jpg" />
+<img src = "https://github.com/sankethkaruturi/Images/blob/9ad5bc70389091c9dd6bf4be1b66f50583805b69/Telco%20Customer%20Churn%20Prediction/telco.jpg" />
 
 ## Machine Learning and Data Science 
 
@@ -49,27 +49,27 @@ In this section, we focus on the most important **visualizations** that result f
 
 The image shows the **input** data, highlighting a list of features and attributes that can be used by ML models to make predictions about customer churn. This information can be used to create more accurate models and to improve the performance of our predictions. Note that the image only shows a few set of features. There are more features in the dataset but this is used only for illustration purposes. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Images/Input%20data.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/images/Input%20data.jpg"/>
 
 We can now understand the total number of missing values from each of the features. **Missingno** plots can be used to show a list of missing values from the features. It clearly indicates that there are less number of missing values in the data. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Images/Missingno%20plot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/images/Missingno%20plot.jpg"/>
 
 The data used for the list of features is **represented** in the figure below, which shows that there are no missing or null values in the data. The features are categorized as float64, int64, and object types, indicating that the data consists of numerical and non-numerical variables.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Images/Dataset%20Info.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/images/Dataset%20Info.jpg"/>
 
 The plot below displays the total number of data points categorized by **gender**. The number of male and female participants appears to be roughly equal, indicating that there is no significant class imbalance. Therefore, metrics such as accuracy can be used with confidence in evaluating the model's performance.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Images/Gender%20countplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/images/Gender%20countplot.jpg"/>
 
 The following figure illustrates the **partner** category and provides information on whether the individuals considered for churning from a service had partners or not. The data shows that there are slightly more individuals who do not have partners than those who do, indicating a **slight** class imbalance. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Images/Partner%20countplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/images/Partner%20countplot.jpg"/>
 
 The majority of customers appear to opt for **Fiber optic** connections over **DSLs**, with only a small number choosing neither option. It would be interesting to investigate the extent to which each type of connection impacts customer churn behavior.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Images/Internet%20Service%20countplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/images/Internet%20Service%20countplot.jpg"/>
 
 A vast majority of participants in the survey did not take internet backup. There are some category of people who did not even take internet service as well.
 
@@ -84,13 +84,13 @@ Below are some recommendations to be followed by the company to reduce churn rat
 * Improve overall customer support and service to build stronger relationships with customers
 * By providing more targeted and flexible options for internet plans, as well as improving overall customer support and service, Telco companies can reduce churn rate and increase profitability.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Onlinebackup%20countplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Onlinebackup%20countplot.jpg"/>
 
 The majority of participants chose electronic checks as their preferred payment method, with a smaller portion selecting mailed checks. Additionally, some participants opted for the convenience of automatic credit card payments.
 
 This revision provides a clearer breakdown of the different payment methods chosen by participants and avoids the use of the word "default," which could imply that electronic checks were the only option or the preferred choice for all participants. The revised statement also emphasizes the convenience factor of automatic credit card payments, which could be helpful information for future payment processing considerations.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/PaymentMethod%20countplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/PaymentMethod%20countplot.jpg"/>
 
 The information that a vast majority of participants have month-to-month contracts compared to longer term contracts could potentially be used to predict churn in customers. Here are a few ways this information could be helpful in predicting churn:
 
@@ -102,7 +102,7 @@ The information that a vast majority of participants have month-to-month contrac
 
 By analyzing these potential drivers of churn and monitoring customer behavior over time, companies could develop strategies to retain customers and reduce churn. For example, they could offer more flexible pricing options, improve customer service, or provide incentives to encourage customers to commit to longer term contracts.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Contract%20countplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Contract%20countplot.jpg"/>
 
 After taking a look at the countplot and analyzing the results, it could be found that there are a lot of people (majority) in the dataset that did not churn from the service. There are only fewer number of people who have churned. 
 
@@ -118,7 +118,7 @@ Based on the analysis that the majority of the people in the dataset did not chu
 
 * __Monitor customer feedback:__ Regularly monitor customer feedback to identify issues or concerns and take necessary steps to address their needs.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Churn%20countplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Churn%20countplot.jpg"/>
 
 Fiber optic connections have a higher mean monthly price than DSL connections, while those who haven't selected either option pay less. This is due to the advanced technology and maintenance required for fiber optic connections. DSL may suffice for those with lower usage needs at a lower cost. To make an informed decision, users should evaluate their individual needs and shop around for the best deal among different providers' pricing packages and promotions.
 
@@ -132,7 +132,7 @@ Fiber optic connections have a higher mean monthly price than DSL connections, w
 
 * __Consider other factors that affect monthly charges:__ Monthly charges for internet services can be affected by factors such as bundling, contract length, and promotions. People should be made aware of these factors so they can make informed decisions about their internet service.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Images/MonthlyCharges%20plot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/images/MonthlyCharges%20plot.jpg"/>
 
 Customers who churned had higher monthly charges on average than non-churned customers, with an average of $80 compared to $60 annually. This shows that pricing is a significant factor in customer retention. Providers should offer competitive pricing packages and incentives to retain customers and reduce churn rates.
 
@@ -146,7 +146,7 @@ Customers who churned had higher monthly charges on average than non-churned cus
 
 * **Monitor customer satisfaction:** Providers should regularly monitor customer satisfaction through surveys and other feedback channels. This can help identify areas for improvement and address issues before customers become dissatisfied enough to leave.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Images/monthlycharges%20vs%20churn%20boxplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/images/monthlycharges%20vs%20churn%20boxplot.jpg"/>
 
 The plot indicates that senior citizens generally pay higher monthly charges compared to non-seniors. This could be attributed to the fact that seniors tend to utilize Telco services more than non-seniors, leading to increased usage and subsequently, higher charges.
 
@@ -160,7 +160,7 @@ Below are some ways to ensure that there is reduction in the churn rate of custo
 * Offer special promotions or rewards for long-term customers to build loyalty
 * Addressing the unique needs of senior citizens can help reduce churn rate and build stronger relationships with this demographic.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Senior%20citizens%20total%20charges.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Senior%20citizens%20total%20charges.jpg"/>
 
 Customers who have subscribed to Device Protection plans are paying higher total charges compared to those who did not opt for an internet connection or those who have subscribed to an internet connection but did not choose the device protection plan.
 
@@ -174,7 +174,7 @@ Below are some recommendations that could be followed in order to reduce the chu
 * Improve overall customer support and service to build stronger relationships with customers
 * By providing more targeted and flexible options for Device Protection plans, as well as improving overall customer support and service, Telco companies can reduce churn rate and increase profitability.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Device%20protection%20total%20charges.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Device%20protection%20total%20charges.jpg"/>
 
 Heatmaps show that monthly charges are __strongly linked__ to fiber optic connection and streaming TV services. Long-time customers often choose paperless billing and device protection/online backup plans. To improve customer satisfaction, the company should consider promoting fiber optic connections, bundling internet and streaming TV services, and encouraging paperless billing for new customers. Highlighting device protection and online backup plans can increase customer loyalty.
 
@@ -188,13 +188,13 @@ Heatmaps show that monthly charges are __strongly linked__ to fiber optic connec
 
 Overall, by understanding the correlations between various features in the dataset, the company can make data-driven decisions and optimize their services to improve customer satisfaction and retention.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Heatmap%20correlation.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Heatmap%20Correlation.png"/>
 
 __Principal Component Analysis (PCA)__ can be used to determine the optimal number of components necessary for predicting whether customers are likely to churn. By analyzing the below plot, we can conclude that approximately 15 components are sufficient to account for 90% of the variance in the dataset. This approach of selecting a reduced number of features can help to avoid the problem of the "curse of dimensionality", which can arise when working with high-dimensional data.
 
 In summary, PCA enables us to identify the most important components for predicting customer churn, and selecting a smaller number of features can help to overcome the challenges associated with high-dimensional data.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/PCA%20Plot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/PCA%20Plot.jpg"/>
 
 __ML Model Performance:__
 
@@ -202,69 +202,69 @@ We can evaluate the performance of ML models in this section. A list of models t
 
 __K Nearest Neighbors (KNN):__ We will take a look at the performance of ML models on the test data. Confusion matrix gives a good representation of the total number of true positives, true negatives, false positives and false negatives. In addition, this can also help determine the total accuracy, precision, recall and f1-scores using formulas. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/K%20neighbors%20classifier%20confusion%20matrix.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/K%20neighbors%20classifier%20confusion%20matrix.jpg"/>
 
 The AUC score for the classifier is about 0.76 respectively. It does a decent job of classifying whether customers are going to churn from the service or not. We can also explore other models that can also improve AUC scores even further. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/k%20neighbors%20classifier%20auc%20scores%20new.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/k%20neighbors%20classifier%20auc%20scores%20new.jpg"/>
 
 __Support Vector Classifier:__ The support vector classifier does a decent job of classifying whether the customers are going to churn or not. The performance is quite equivalent to both the classes of churn and non-churn respectively. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Support%20vector%20classifier.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Support%20vector%20classifier.jpg"/>
 
 The AUC of the classifier was about 0.87 respectively. It did a good job of classifying whether customers are going to churn or not. We can also explore a list of other models that could be deployed in real-time with good accuracy, precision, recall and f1-score. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/AUC%20Support%20Vector%20Classifier.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/AUC%20Support%20Vector%20Classifier.jpg"/>
 
 __Logistic Regression:__ Let us explore another simple model called logistic regression that could be deployed easily in real-time. We tend to see a good performance on the test data from the confusion matrix. We can also see how well it does with the AUC metric. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Logistic%20regression%20confusion%20matrix.jpg">
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Logistic%20regression%20confusion%20matrix.jpg">
 
 The AUC of the classifier came out to be about 0.86 respectively. This is a good improvement in the performance as compared to the previous models we have experimented and used in determining the customer churn. We can also test other classifiers that are complex and which can better capture the underlying distribution of data. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/AUC%20logistic%20regression.jpg">
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/AUC%20logistic%20regression.jpg">
 
 __Decision Tree Classifier:__ Looks like there are quite a few misclassifications given by the model. There are quite a few false negatives which can have an impact on the business. This is because the model is not doing well on the classes who are going to churn. But we can also look for a list of other models to determine the best one to be deployed in real-time. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Confusion%20matrix%20decision%20tree%20classifier.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Confusion%20matrix%20decision%20tree%20classifier.jpg"/>
 
 The AUC of the classifier is also quite lower as compared to ther models. In addition, the false negatives are also higher in this model which could possibly lead to loss in the business opportunity. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/AUC%20decision%20tree%20classifier.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/AUC%20decision%20tree%20classifier.jpg"/>
 
 __Gaussian Naive Bayes Classifier:__ The gaussian naive bayes classifier is quite popular and can be used for customer churn prediction. The model does a decent job in classifying whether customers are going to leave or stay in the service. The false negatives are low, which means that it is capable of identifying accurately the customers who can churn. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Naive%20bayes%20confusion%20matrix.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Naive%20bayes%20confusion%20matrix.jpg"/>
 
 The classifier has an AUC of 0.83, which is a significant improvement compared to many other models we have previously tested. However, it's important to note that there is no universally optimal model for all tasks. Depending on the specific task and dataset, even simpler classifiers can outperform more complex ones.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/AUC%20Naive%20bayes.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/AUC%20Naive%20bayes.jpg"/>
 
 __Random forest classifier:__ This classifier has a reputation for excelling in a variety of machine learning tasks and exhibiting high robustness to variance. In models like decision trees, which rely on simplistic if-else conditions to navigate through the tree structure, high variance may occur when data dimensionality is high or the training examples are significantly fewer than the total number of dimensions in the data. Random forest, on the other hand, employs numerous decision trees in concert to produce the final classification output, effectively mitigating the issue of high variance.
 
 While the model performs well on the test set, it falls short in accurately identifying cases of customer churn. This presents a critical concern for the business, as failing to identify and address these customers can result in a significant loss of revenue. Therefore, it is crucial to prioritize and allocate more resources towards identifying and retaining these customers.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Random%20forest%20confusion%20matrix.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Random%20forest%20confusion%20matrix.jpg"/>
 
 With an AUC of approximately 0.88, the random forest classifier outperforms the other models we have tested and applied in our machine learning task. Nevertheless, the model falls short in accurately detecting the class of customers who are likely to churn in comparison to other models. Consequently, we must seek out and utilize more precise models that can more accurately identify this variable.
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/AUC%20random%20forest.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/AUC%20random%20forest.jpg"/>
 
 __XGB Classifier:__ After looking at the confusion matrix of xgboost classifier, it could be found that there are only quite a few false positives and false negatives. Therefore, this model is performing quite well. There are about 270 false positives which means that the model does a decent job of identifying people who are going to churn from various services. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/Xgboost%20confusion%20matrix.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/Xgboost%20confusion%20matrix.jpg"/>
 
 The AUC of the classifier came out to be about 0.92 for the xgboost classifier. Overall, it does a good job in identifying people who are going to churn from services. This model has the highest AUC as compared to the other models that we have tried so far. In addition, the model have few false positives and false negatives which is good for our application. However, xgboost model is not as interpretable as compared to decision trees or random forests. Therefore, we can use random forest classifier to determine the total churn rate of customers. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/xgboost%20roc%20curves.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/xgboost%20roc%20curves.jpg"/>
 
 __Hyperparameter Tuned Random Forest Classifier:__ After performing the step of hyperparameter tuning and optimization, the random forest model does a great job in lowering the number of false positives and false negatives in our data of customer churn. In fact, it does better than the xgboost model that we have used above. Hence, we can deploy this model in real-time for determining the churn rate of customers. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/random%20forest%20hyperparameter%20tuned.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/random%20forest%20hyperparameter%20tuned.jpg"/>
 
 The AUC of the classifier came out to be about 0.93 which is better than all the models we have tested so far. Furthermore, it has the highest f1 score for both the classes. 
 
-<img src = "https://github.com/suhasmaddali/Telco-Customer-Churn-Prediction/blob/main/Plots/random%20forest%20hyperparameter%20tuned%20roc%20curves.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Telco-Customer-Churn-Prediction/blob/52b458619c0dc990e06daa3a694539b0be4b333a/Plots/random%20forest%20hyperparameter%20tuned%20roc%20curves.jpg"/>
 
 After performing feature engineering along with model experimentation, it can be found that the hyperparameter tuned random forest is performing the best on the test set (unseen data). We can expect the performance to be quite similar in real-world assuming that the distribution of the test data is similar to the distribution of the real-time data. 
 
